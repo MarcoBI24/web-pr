@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor-general{
+    margin: auto;
+    max-width: 1440px;;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr minmax(80px, min-content) 4fr minmax(40px, min-content);
+}
+.grid-item{
+    border: 1px solid;
+}
+.contenedor-header{
+    grid-column: 1 / 3;
+}
+.contenedor-logos{
+    grid-column:  1 / 3;
+}
+.contenedor-cajas{
+    grid-column: 1 / 3;
+}
